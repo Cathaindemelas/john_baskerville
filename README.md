@@ -5,7 +5,7 @@ John Baskerville
 
 - [Version 2](https://cathaindemelas.github.io/john_baskerville/baskerville2.html)
 
-- [Version 2](https://cathaindemelas.github.io/john_baskerville/baskerville3.html)
+- [Version 3](https://cathaindemelas.github.io/john_baskerville/baskerville3.html)
 
 
 
