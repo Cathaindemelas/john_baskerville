@@ -57,6 +57,59 @@ blockquote cite {
 header h3 {font-style: italic}
 
 header p {font-size: 1.35em}
+/*-------------STYLING LINES-------------*/
+a {
+    color: #8C01DC;
+ text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+    border-bottom: 1px dotted;
+}
+
+/*----------------NAVIGATION----------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #8C01DC;
+    padding: 1em 0;
+    font-size: 0.75em;
+
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+
+}
+
+nav a:link {
+    color: #fafafa;
+}
+
+nav a:visited {
+    color: #fafafa;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: chocolate;
+}
+
+
+
 
 /*-------------------- FOOTER ---------------------*/
 footer {
