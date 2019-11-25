@@ -9,6 +9,8 @@ John Baskerville
 
 - [Version 4](https://cathaindemelas.github.io/john_baskerville/baskerville4.html)
 
+- [Version 5](https://cathaindemelas.github.io/john_baskerville/baskerville5.html)
+
 
 
 History of Type
