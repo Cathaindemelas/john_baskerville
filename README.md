@@ -18,4 +18,4 @@ History of Type
 
 - [Version 2](https://cathaindemelas.github.io/john_baskerville/type-history2.html)
 
-
+- [Version 3](https://cathaindemelas.github.io/john_baskerville/type-history3.html)
