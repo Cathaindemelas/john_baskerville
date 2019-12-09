@@ -10,7 +10,7 @@
 /*---------- MAIN STYLING ----------*/
 body {
     width: 80%;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     background: #fafafa;
     color: #333;
@@ -18,6 +18,8 @@ body {
     }
 
     header {margin-bottom: 5em}
+
+
 /*---------------- FLEX -------------------*/
     article {display: flex;}
     
@@ -61,7 +63,7 @@ margin-bottom: 1.5em;}
 blockquote {
    font-size: 1.7em;
    hanging-punctuation: first;
-   text-indent: -0.44em;
+   
    color:  #8C01DC;
 }
 
@@ -116,6 +118,8 @@ nav {
     background-color: #8C01DC;
     padding: 1em 0;
     font-size: 0.75em;
+    box-shadow: 0 0 10px 0 black;
+    
 
 }
 
@@ -196,6 +200,42 @@ img {
 
 }
 
+
+/*-------------------- FOOTER ---------------------*/
+footer {
+    text-align: center;
+    font-size: 0.6em;
+    padding: 2em 0 4em 0
+}
+
+.connections {
+	position: relative;
+	margin: 0 auto;
+}
+
+.connections ul {
+	margin: 0;
+	padding: 0;}
+
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none; 
+	display: inline-block;}
+	
+.connections a:link {
+	border-bottom: none;}
+
+.connections img {
+	opacity: 0.5;
+    border: none;
+	}
+	
+ .connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none; 
+		transition: all 0.3s ease-in-out; 
+				}
 /*------------------MEDIAQUERIES--------------------*/
 
 
@@ -203,16 +243,20 @@ img {
 
 /*------------------ TABLET --------------------*/
 
-@media (max-width: 50em) 
+@media (max-width: 50em) {
     body {
         width: 100%;
     }
      
+article {
+    flex-flow: column;
+    flex-direction: column;
+}
 header p, article {
     width: 95%;
     padding: 0.5em;
     } 
-    
+}
 
 /*------------------ SMARTPHONE -------------------*/
 
@@ -248,42 +292,7 @@ header p, article {
       
       img {display: none}
       
-/*-------------------- FOOTER ---------------------*/
-footer {
-    text-align: center;
-    font-size: 0.707em;
-    padding: 2em 0 4em 0
-}
 
-.connections {
-	position: relative;
-	margin: 0 auto;
-}
-
-.connections ul {
-	margin: 0;
-	padding: 0;}
-
-.connections li {
-	margin: 0 15px;
-	padding: 0;
-	list-style: none; 
-	display: inline-block;}
 	
-.connections a:link {
-	border-bottom: none;}
-
-.connections img {
-	opacity: 0.5;
-    border: none;
-	}
-	
- .connections a:hover img {
-		opacity: 1.0;
-		border-bottom: none; 
-		transition: all 0.3s ease-in-out; 
-				}	
-
-
 
 
