@@ -26,7 +26,7 @@ History of Type
 
 - [Version 4](https://cathaindemelas.github.io/john_baskerville/type-history4.html)
 
-
+- [Version 5](https://cathaindemelas.github.io/john_baskerville/type-history5.html)
 
 
 

@@ -35,7 +35,7 @@ body {
 
 h1, h2, h3 {
     font-weight: normal;
-    color: #8C01DC;
+    color: rgb(207, 172, 12);
     text-align: center; 
 }
 p {font-family: 'Open Sans', sans-serif;}
@@ -61,19 +61,21 @@ blockquote {
    font-size: 1.7em;
    hanging-punctuation: first;
    text-indent: -0.44em;
-   color:  #8C01DC;
+   color:  rgb(207, 172, 12);
 }
 
 blockquote cite {
     font-size: 0.7em;
-    color: #333}
+    color: rgb(255, 217, 0)}
 
 header h3 {font-style: italic}
 
-header p {font-size: 1.35em}
+header p {font-size: 1.2em}
+
+
 /*-------------STYLING LINES-------------*/
 a {
-    color: #8C01DC;
+    color: rgb(207, 172, 12);
  text-decoration: none;
 }
 
@@ -89,9 +91,10 @@ nav {
     left: 0px;
     margin: 0px;
     width: 100%;
-    background-color: #8C01DC;
+    background-color: rgb(207, 172, 12);
     padding: 1em 0;
     font-size: 0.75em;
+    box-shadow: 0 0 10px 0 rgb(141, 127, 0);
 
 }
 
@@ -146,7 +149,7 @@ th {
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
-    background: #8C01DC;
+    background: rgb(211, 190, 5);
     
 }
 
@@ -155,7 +158,7 @@ padding: 0.6em;
 }
 
 table, td {
-    background: rgb(233, 217, 243);
+    background: rgb(241, 234, 132);
     border: 1px solid #fafafa;
 }
 
@@ -170,6 +173,43 @@ img {
     
 
 }
+
+/*-------------------- FOOTER ---------------------*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0
+}
+
+.connections {
+	position: relative;
+	margin: 0 auto;
+}
+
+.connections ul {
+	margin: 0;
+	padding: 0;}
+
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none; 
+	display: inline-block;}
+	
+.connections a:link {
+	border-bottom: none;}
+
+.connections img {
+	opacity: 0.5;
+    border: none;
+	}
+	
+ .connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none; 
+		transition: all 0.3s ease-in-out; 
+				}
+
 
 /*------------------ TABLET --------------------*/
 
@@ -200,12 +240,6 @@ img {
 
 
 
-/*-------------------- FOOTER ---------------------*/
-footer {
-    text-align: center;
-    font-size: 0.707em;
-    padding: 2em 0 4em 0
-}
 
 
 
